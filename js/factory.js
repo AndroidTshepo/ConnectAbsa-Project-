@@ -4,7 +4,7 @@ app.factory('defaultService', function ($http, $q) {
            // the $http API is based on the deferred/promise APIs exposed by the $q service
            // so it returns a promise for us by default
            return $http({
-                            //url: 'http://geoffseloana.com/search_app/index.php',
+                         
                             url: 'http://tshepomashabathakga.com/commentBackend/index.php',
                             method: "POST",
                             data: $.param(dataINF),
