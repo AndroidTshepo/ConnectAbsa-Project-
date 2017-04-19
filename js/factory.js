@@ -14,13 +14,7 @@ app.factory('defaultService', function ($http, $q) {
                         .then(function(response) {
 	                        console.log("====Inside default Service====");
 	                        console.log(response);
-                           //if (typeof response.data === 'object') {
-                                return response;
-                           //} else {
-                               // invalid response
-                               //console.log("invalid response (response not an object)")
-                               //return $q.reject(response);
-                       	   //}
+                               return response;  
 
                    }, function(response) {
                        // something went wrong
